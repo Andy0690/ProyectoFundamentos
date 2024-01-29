@@ -7,10 +7,10 @@ class Persons {
 	}
 	printPersons() {
 		return "<h3>Person: </h3><br>" +
-		`Name: ${this.name} <br>` +
-		`Last name: ${this.lastName} <br>` +
-		`Age: ${this.age} <br>` +
-		`Id card: ${this.idCard} <br>`
+		`<h4>Name:</h4> ${this.name} <br>` +
+		`<h4>Last name:</h4> ${this.lastName} <br>` +
+		`<h4>Age:</h4> ${this.age} <br>` +
+		`<h4>Id card:</h4> ${this.idCard} <br>`
 	}
 }
 
@@ -18,7 +18,7 @@ class Persons {
 		"Andres", 
 		"Yepes", 
 		25, 
-		1216718195
+		1216718199
 	);
 
 	function showPersons() {

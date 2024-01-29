@@ -6,13 +6,13 @@ class Animals {
 	}
 	printAnimals() {
 		return "<h3>Animal: </h3><br>" +
-		`Name: ${this.name} <br>` +
-		`Gender: ${this.gender} <br>` +
-		`Breed: ${this.breed}`
+		`<h4>Name:</h4> ${this.name} <br>` +
+		`<h4>Gender:</h4> ${this.gender} <br>` +
+		`<h4>Breed:</h4> ${this.breed} `
 	}
 }
 const cat1 = new Animals (
-	"gato", 
+	"zeus", 
 	"macho", 
 	"persa"
 );

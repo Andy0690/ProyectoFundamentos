@@ -6,9 +6,9 @@ class Veterinarys {
   }
   printVeterinarys() {
     return "<h3>Veterinary: </h3><br>" + 
-    `Name: ${this.name} <br>` +
-    `Address: ${this.address} <br>` +
-    `Phone: ${this.phone}`
+    `<h4>Name:</h4> ${this.name} <br>` +
+    `<h4>Address:</h4> ${this.address} <br>` +
+    `<h4>Phone:</h4> ${this.phone}`
   }
 }
 
