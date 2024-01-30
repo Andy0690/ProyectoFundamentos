@@ -17,7 +17,7 @@ class Persons {
 	const person1 = new Persons(
 		"Andres", 
 		"Yepes", 
-		25, 
+		28, 
 		1216718199
 	);
 
