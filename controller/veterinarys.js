@@ -5,10 +5,10 @@ class Veterinarys {
     this.phone = phone;
   }
   printVeterinarys() {
-    return "<h3>Veterinary: </h3><br>" + 
-    `<h4>Name:</h4> ${this.name} <br>` +
-    `<h4>Address:</h4> ${this.address} <br>` +
-    `<h4>Phone:</h4> ${this.phone}`
+    return "<h3>Veterinaria: </h3><br>" + 
+    `<h4>Nombre:</h4> ${this.name} <br>` +
+    `<h4>Dirección:</h4> ${this.address} <br>` +
+    `<h4>Teléfono:</h4> ${this.phone}`
   }
 }
 

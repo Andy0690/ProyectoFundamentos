@@ -6,11 +6,11 @@ class Persons {
 		this.idCard = idCard;
 	}
 	printPersons() {
-		return "<h3>Person: </h3><br>" +
-		`<h4>Name:</h4> ${this.name} <br>` +
-		`<h4>Last name:</h4> ${this.lastName} <br>` +
-		`<h4>Age:</h4> ${this.age} <br>` +
-		`<h4>Id card:</h4> ${this.idCard} <br>`
+		return "<h3>Persona: </h3><br>" +
+		`<h4>Nombre:</h4> ${this.name} <br>` +
+		`<h4>Apellido:</h4> ${this.lastName} <br>` +
+		`<h4>Edad:</h4> ${this.age} <br>` +
+		`<h4>Cédula:</h4> ${this.idCard} <br>`
 	}
 }
 
