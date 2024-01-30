@@ -6,19 +6,19 @@ class Persons {
 		this.idCard = idCard;
 	}
 	printPersons() {
-		return "<h3>Person: </h3><br>" +
-		`Name: ${this.name} <br>` +
-		`Last name: ${this.lastName} <br>` +
-		`Age: ${this.age} <br>` +
-		`Id card: ${this.idCard} <br>`
+		return "<h3>Persona: </h3><br>" +
+		`<h4>Nombre:</h4> ${this.name} <br>` +
+		`<h4>Apellido:</h4> ${this.lastName} <br>` +
+		`<h4>Edad:</h4> ${this.age} <br>` +
+		`<h4>Cédula:</h4> ${this.idCard} <br>`
 	}
 }
 
 	const person1 = new Persons(
 		"Andres", 
 		"Yepes", 
-		25, 
-		1216718195
+		28, 
+		1216718199
 	);
 
 	function showPersons() {
